@@ -2,10 +2,11 @@
   "private": true,
   "name": "e-resume",
   "version": "1.0.0",
+  "homepage": "https://diegohenriquecode.github.io",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test"
