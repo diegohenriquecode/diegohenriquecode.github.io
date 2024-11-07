@@ -14,10 +14,9 @@ const greeting = {
   logo_name: "Diego",
   // nickname: "harry / picleric",
   full_name: "Diego Oliveira",
-  subTitle:
-    "Full Stack Developer, Open Source Enthusiast, Life Long Learner.",
+  subTitle: "Full Stack Developer, Open Source Enthusiast, Life Long Learner.",
   resumeLink:
-    "https://drive.google.com/file/d/1B3BFWtU-gZBtv-WvaQNRcr-JceDge04m/view?usp=sharing",
+    "https://drive.google.com/file/d/1We0TAsTCvWALqj84F3O9VQkIMkL4KvFU/view?usp=sharing",
   mail: "mailto:diegohenriquecode@gmail.com",
 };
 
@@ -287,13 +286,20 @@ const skills = {
             color: "#47A248",
           },
         },
-        // {
-        //   skillName: "Docker",
-        //   fontAwesomeClassname: "simple-icons:docker",
-        //   style: {
-        //     color: "#1488C6",
-        //   },
-        // },
+        {
+          skillName: "DynamoDB",
+          fontAwesomeClassname: "simple-icons:dynamo",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
+          },
+        },
         {
           skillName: "GitHub Actions",
           fontAwesomeClassname: "simple-icons:githubactions",
@@ -445,50 +451,56 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Freelance",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "With over five years of experience in the programming field, I've had the privilege of working on diverse projects that have significantly enriched my skills and career. Each role has contributed unique perspectives and expertise, shaping me into a well-rounded, highly skilled software developer. I bring not only technical proficiency but also a passion for creating impactful solutions that prioritize efficiency, scalability, and maintainability. My commitment to quality and continuous improvement drives me to stay on top of the latest developments in software engineering, ensuring I deliver exceptional results.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Fullstack Developer Intern",
-          company: "Appi9",
-          company_url: "https://www.appi9.com/",
-          logo_path: "appi9.jpeg",
-          duration: "Nov 2019 - Mar 2020",
-          location: "Hybrid",
-          description: `
-          Developed UIs using Vue, ChartJS and Bootstrap. Was a very good oportunity to learn with the others devs and the CTO
-          based on the frequently contact between us.
-          Also, I've used PHP with Laravel to build some features on Backend.
-          Their core products are a Omnichannel based on whatsapp api, I've made some features there about this and
-          one of their Landing Pages was made by me 😆
-          `,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#ffffff",
-        },
-        {
-          title: "Fullstack Engineer",
-          company: "Groove.Tech",
-          company_url: "https://www.groove.tech/",
-          logo_path: "groove.jpg",
-          duration: "Feb 2020 - May 2021",
+          title: "Software Developer - Backend",
+          company: "Febracis",
+          company_url: "https://febracis.com/",
+          logo_path: "febracis-logo.png",
+          duration: "Mar 2024 - Nov 2024",
           location: "Remote",
           description: `
-            As Fullstack Engineer I've worked with ReactJS and NodeJS to rebuild one of theier most importants applications The Neojets www.neojets.com/
+            At Febracis, we focused heavily on serverless architecture, leveraging AWS and integrating with external APIs to enhance system capabilities. We maintained a strong agile culture, enabling efficient development cycles and rapid adaptation to project needs.
           `,
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#3c820d",
+          color: "#000",
         },
         {
-          title: "Fullstack Engineer",
+          title: "Software Developer - Frontend",
+          company: "FDTE | FISERV",
+          company_url: "https://www.fiserv.com.br/",
+          logo_path: "fiserv-logo-orange.svg",
+          duration: "May 2020 - Mar 2022",
+          location: "Remote",
+          description: `
+            At FDTE, I worked with the client FISERV, applying my expertise in React.js. I played a key role in streamlining processes, as the squad I was part of initially didn't follow an agile methodology. My work included backend development in Java, a microfrontend architecture, and implementing a design system using atomic design principles. I also handled integration and unit testing, CI/CD pipelines, Jenkins servers, and virtual machines for remote access, enhancing both the system's reliability and team productivity.
+          `,
+          color: "#fc4e03",
+        },
+        {
+          title: "Software Developer - Fullstack",
+          company: "Newspace | Bradesco",
+          company_url: "https://bfveic.nssmartsuite.com.br/#/login",
+          logo_path: "bfveic.png",
+          duration: "May 2020 - Mar 2022",
+          location: "Remote",
+          description: `
+            Working on a vehicle financing system for Bradesco bank (BFVEIC), I participated in the planning, structuring, development, and maintenance of new modules. I worked extensively with Microservices Architecture, REST API Development, Event-Driven Architecture, Automated Process Robots in C# and NodeJS, a large suite of Docker tools, Relational and Non-Relational Databases (MONGO DB and SQLServer), Database Routines with Stored Procedures, Automated Deployment Pipeline with Azure DevOps, among other experiences that I have had the pleasure to be involved with.
+          `,
+          color: "#fc030f",
+        },
+        {
+          title: "Software Developer - Fullstack",
           company: "Tradex Solutions",
           company_url: "http://tradexsolutions.com.br/",
           logo_path: "tradex.png",
-          duration: "May 2021 - Mar 2022",
+          duration: "May 2020 - Mar 2022",
           location: "Remote",
           description: `
             As Fullstack Engineer I've worked with ReactJS, NextJS, Redux and Python, Django, Plotly to build a solid architecture that whas 3 points
@@ -497,82 +509,96 @@ const experience = {
             A App with tasks to the promoter execute.
             In the case of this project I was Teach Lead on the part of Agency application, but worked in all points
           `,
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#0071C5",
+        },
+        {
+          title: "Software Developer - Frontend",
+          company: "Groove.Tech",
+          company_url: "https://www.groove.tech/",
+          logo_path: "groove.jpg",
+          duration: "Fev 2019 - Apr 2020",
+          location: "Remote",
+          description: `
+            As Fullstack Engineer I've worked with ReactJS and NodeJS to rebuild one of theier most importants applications The Neojets www.neojets.com/
+          `,
+          color: "#3c820d",
+        },
+        {
+          title: "Software Developer - Intern",
+          company: "Appi9",
+          company_url: "https://www.appi9.com/",
+          logo_path: "appi9.jpeg",
+          duration: "Jan 2018 - Fev 2019",
+          location: "Hybrid",
+          description: `
+            Developed UIs using Vue, ChartJS and Bootstrap. Was a very good oportunity to learn with the others devs and the CTO
+            based on the frequently contact between us.
+            Also, I've used PHP with Laravel to build some features on Backend.
+            Their core products are a Omnichannel based on whatsapp api, I've made some features there about this and
+            one of their Landing Pages was made by me 😆
+          `,
+          color: "#ffffff",
         },
       ],
     },
-    // {
-    //   title: "Freelancers",
-    //   experiences: [
-    //     {
-    //       title: "Attom Labs",
-    //       company: "Attom Labs",
-    //       company_url: "",
-    //       logo_path: "",
-    //       duration: "out de 2020 - jun de 2021",
-    //       location: "R",
-    //       description:
-    //         "Member responsibilities were to help students in project planning, review issues and pull requests, ensure smooth progress and help juniors out in their difficulties.",
-    //       color: "#4285F4",
-    //     },
-    //     {
-    //       title: "Campus Leader",
-    //       company: "Code For Cause",
-    //       company_url: "https://www.codecau.se/",
-    //       logo_path: "CFC.jfif",
-    //       duration: "Nov 2020 - Present",
-    //       location: "SRM IST Kattankulathur",
-    //       description:
-    //         "Held numerous workshops and distributed learning content for freshers. Contributed to development of the causefolio website displaying the information about the Code for Cause Community.",
-    //       color: "#a60000",
-    //     },
-    //     {
-    //       title: "Machine Learning - Research associate",
-    //       company: "Next Tech Lab",
-    //       company_url: "https://nextech.io/",
-    //       logo_path: "NTL.jfif",
-    //       duration: "Oct 2020 - Present",
-    //       location: "SRM IST Kattankulathur",
-    //       description:
-    //         "Associate responsibilities were to build fast and efficient machine learning models, have talks on research topics related to computer vision and deep learning. Build team projects and intract with fellow members and ensure smooth progress and help juniors out in their difficulties.",
-    //       color: "#62cff0",
-    //     },
-    //     {
-    //       title: "Campus Ambassador",
-    //       company: "Bagcampus",
-    //       company_url: "https://bagcampus.in/",
-    //       logo_path: "Bagcampus.jpg",
-    //       duration: "Dec 2020 - May 2021",
-    //       location: "Remote",
-    //       description:
-    //         "Spread Awareness of new Technologies and Companies and new Opportunities to Students and Grow Bagcampus Community.",
-    //       color: "#0059c9",
-    //     },
-    //     {
-    //       title: "Volunteer",
-    //       company: "Google Crowdsource",
-    //       company_url: "https://indiaenvironment.org/",
-    //       logo_path: "GCS.jfif",
-    //       duration: "Sept 2020 - Present",
-    //       location: "Remote",
-    //       description:
-    //         "As a member of the global Crowdsource community one can gain recognition from other Crowdsourcers and Google.",
-    //       color: "#ffffff",
-    //     },
-    //     {
-    //       title: "Student Volunteer",
-    //       company: "National Service Scheme",
-    //       company_url: "https://indiaenvironment.org/",
-    //       logo_path: "NSS.jfif",
-    //       duration: "Dec 2019 - May 2020",
-    //       location: "SRM IST Kattankulathur",
-    //       description:
-    //         "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-    //       color: "#282b6c",
-    //     },
-    //   ],
-    // },
+    {
+      title: "Freelancers",
+      experiences: [
+        {
+          title: "Software Developer - Frontend",
+          company: "Equatorial Telecom",
+          company_url: "https://www.equatorialtelecom.com.br/",
+          logo_path: "equatorial.svg",
+          duration: "Jan 2022 - Ago 2022",
+          description:
+            "In partnership with Equatorial, I was tasked with developing the frontend of one of their platforms. At the time, I used Next.js, Chakra UI, Hook Form, and the most commonly used React tools.",
+          color: "#fff",
+        },
+        {
+          title: "Software Developer - Frontend",
+          company: "Ikatec",
+          company_url:
+            "https://www.linkedin.com/company/ikatec/?originalSubdomain=br",
+          logo_path: "ikatec_logo.jpeg",
+          duration: "Oct 2020 - Dez 2021",
+          description:
+            "At Ikatec, I worked with React and Laravel, which was an incredible experience that lasted a little over a year and provided me with a wealth of knowledge. In this role, I utilized React to build dynamic user interfaces, focusing on creating smooth, responsive applications. With Laravel, I worked on the backend, leveraging its powerful features like Eloquent ORM for database management, Blade templating for clean, reusable views, and Artisan commands for efficient workflow automation. The combination of React's component-based architecture and Laravel's robust backend made it an ideal environment for full-stack development, enhancing both my frontend and backend skills.",
+          color: "#62cff0",
+        },
+        {
+          title: "Software Developer - Vtex",
+          company: "B8one",
+          company_url: "https://www.b8one.com/pt-BR",
+          logo_path: "b8one.jpg",
+          duration: "Dec 2020 - May 2021",
+          description:
+            "At B8one, I had the opportunity to explore a new tool, VTEX IO, alongside React and Node.js. VTEX IO is a platform for building scalable e-commerce applications, and working with it allowed me to dive deep into creating customizable, high-performance online stores. React was used to build intuitive, dynamic user interfaces, while Node.js handled server-side operations, ensuring seamless communication between the frontend and backend. This experience not only enhanced my understanding of e-commerce platforms but also broadened my technical toolkit, giving me hands-on expertise with cutting-edge technologies used in modern, scalable web applications.",
+          color: "#000",
+        },
+        {
+          title: "Software Developer - Fullstack",
+          company: "Yampa",
+          company_url: "https://yampa.com.br/",
+          logo_path: "yampa.png",
+          duration: "Fev 2024 - Nov 2024",
+          location: "Remote",
+          description:
+            "At Yampa, I had the pleasure of working alongside some of the people who were part of the early stages of my career at Appi9. I had the opportunity to collaborate closely with Team Leads and the CTO, which allowed me to further develop my skills and gain invaluable insights. One of the key projects I worked on involved integrating an accounting classification system with an OpenAI API for ChatGPT. This experience allowed me to apply best practices like the Ports and Adapters pattern for the backend, specifically using NestJS, which helped in building a clean, maintainable architecture. Overall, this role not only enhanced my technical capabilities but also deepened my understanding of efficient system design and API integrations.",
+          color: "#03c6fc",
+        },
+        {
+          title: "Software Developer - Fullstack",
+          company: "Prefeitura de Fortaleza",
+          company_url: "https://www.fortaleza.ce.gov.br/",
+          logo_path: "prefeitura-de-fortaleza.png",
+          duration: "Fev 2022 - Ago 2022",
+          location: "Remote",
+          description:
+            "In the development of a selection system for a municipal contest, I utilized Django to build both the interface and the services that powered the system. Django's robust framework allowed for rapid development and seamless integration of the front-end and back-end components. It was a great opportunity to leverage Django's capabilities in handling complex data models and user authentication while ensuring that the system was both efficient and secure. This project provided me with valuable experience in full-stack development and working within tight deadlines to deliver a functional and user-friendly application.",
+          color: "#ffffff",
+        },
+      ],
+    },
   ],
 };
 
